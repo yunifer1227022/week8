@@ -5,8 +5,8 @@
 @import './utils/variables';
 @import "../../node_modules/bootstrap";
 
-@import './base';
+@import './base/base.scss';
 
 @import './pages/index.scss';
-@import './pages/contactUs'
+@import './pages/contactUs.scss'
 

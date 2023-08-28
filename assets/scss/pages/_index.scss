@@ -1,3 +1,77 @@
-.index-title {
-  font-size: 100px;
+.index-banner{
+  background: url('/assets/images/home_background.png') no-repeat;
+  height: 880px;
+  background-size: cover;
+
+  img{
+    @media (min-width: 768px) {
+      width: 196px;
+    }
+  }
+}
+
+.alphabox-circle{
+  width: 196px;
+  animation-name: rotate;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: both;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
+
+.copyright{
+  color: #AD93CF;
+  font-weight: 500;
+}
+
+.banner-slogan{
+  h2{
+    @media (min-width: 768px) {
+      font-size: 32px;
+      line-height: 48px;
+      letter-spacing: 80px;
+    }
+  }
+  p{
+    @media (min-width: 768px) {
+      letter-spacing: 16px;
+    }
+  }
+}
+
+.robot-name{
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.intro{
+  z-index: -1;
+  background: radial-gradient(#300871,#000000 70%);
+  height: 1080px;
+  &-half{
+    background: url('/assets/images/carousel_background.png') no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  &-top{
+    background: linear-gradient(to right, $primary 0%, $secondary 100%);
+    height: 40px;
+  }
+  &-bottom{
+    background: linear-gradient(to left, $primary 0%, $secondary 100%);
+    height: 40px;
+  }
+  h2{
+    @media (min-width: 768px) {
+      font-size: 48px;
+      letter-spacing: 48px;
+    }
+    
+  }
 }

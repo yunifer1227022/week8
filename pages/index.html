@@ -9,7 +9,64 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
-    <div>中間區域</div>
+    <div class="border-top border-white index-banner">
+      <div class="container-fluid pt-56 px-80">
+        <div class="row g-32 mb-56">
+          <div class="col-3 d-flex align-items-end">
+            <p class="fw-bold text-white pb-8 mb-0 border-bottom border-white w-100">最新消息！新版本 v15.4 釋出，搶先體驗！</p>
+          </div>
+          <div class="col-6 d-flex justify-content-center">
+            <img src="/assets/images/circle.png" alt="ALPHABOX" class="alphabox-circle col-6 d-block px-0">
+          </div>
+          <div class="col-3 fw-bold d-flex flex-column justify-content-between">
+            <p class="fw-bold border-top border-white text-white pt-4">ALPHABOX+ STUDIO</p>
+            <p class="copyright mb-0">Copyright © 2023 Hexschool.</p>
+          </div>
+        </div>
+
+        <div class="row g-32">
+          <div class="col-3 position-relative">
+            <h3 class="font-shrikhand text-white text-center position-absolute robot-name top-0 start-50 translate-middle-x pt-16">Diane</h3>
+            <img src="/assets/images/diane.png" alt="diane" class="w-100">
+          </div>
+          <div class="col-6 banner-slogan text-white text-center">
+            <h2 class="font-shrikhand fw-normal mb-0">ALPHABOX+</h2>
+            <p class="fw-bold mb-24">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+            <div class="row g-32">
+              <div class="col-6 position-relative">
+                <h3 class="font-shrikhand text-white text-center position-absolute robot-name top-0 start-50 translate-middle-x pt-16">Felix</h3>
+                <img src="/assets/images/felix.png" alt="felix" class="d-block w-100">
+              </div>
+              <div class="col-6 position-relative">
+                <h3 class="font-shrikhand text-white text-center position-absolute robot-name top-0 start-50 translate-middle-x pt-16">Karina</h3>
+                <img src="/assets/images/karina.png" alt="karina" class="w-100">
+              </div>
+            </div>
+          </div>
+          <div class="col-3 position-relative">
+            <h3 class="font-shrikhand text-white text-center position-absolute robot-name top-0 start-50 translate-middle-x pt-16">Vito</h3>
+            <img src="/assets/images/vito.png" alt="vito" class="w-100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="intro position-relative">
+      <div class="intro-half w-50">
+        <div class="container-fluid pt-144 pb-52 px-0 position-absolute">
+          <div class="px-80">
+            <div class="intro-top mb-8"></div>
+            <h2 class="mb-12 text-white">什麼是</h2>
+            <h2 class="pb-16 text-white">ALPHABOX+</h2>
+          </div>
+          <div class="border-top border-white"></div>
+          <div class="px-80">
+            <div class="intro-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <%- include('./layout/footer'); -%>
     <script type="module" src="../main.js"></script>
   </body>

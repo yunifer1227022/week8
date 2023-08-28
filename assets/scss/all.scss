@@ -1,11 +1,14 @@
+// google font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Shrikhand&display=swap');
+// BS5 & custom scss
 @import "../../node_modules/bootstrap/scss/functions";
 @import './utils/variables';
+@import "../../node_modules/bootstrap";
 
-
+@import './base';
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
 
 @import './pages/index.scss';
 
-@import "../../node_modules/bootstrap";

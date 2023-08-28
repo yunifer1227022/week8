@@ -1,0 +1,27 @@
+* , *:after , *:before {
+    box-sizing: border-box;
+}
+
+img {
+	max-width:100%;
+	height: auto;
+	vertical-align:middle;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.font-noto-TC {
+    font-family: 'Noto Sans TC' !important;
+}
+
+.font-shrikhand {
+    font-family: 'Shrikhand'!important;
+}
+
+.form-control::placeholder {
+    color: #1F0F39;
+    }

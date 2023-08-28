@@ -1,4 +1,64 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+.chose {
+  h2{
+    @include media-breakpoint-up(md) {
+      font-size: 64px;
+      font-weight: 900;
+    }
+  }
+  p {
+    @include media-breakpoint-up(md) {
+      font-size: 48px;
+    }
+  }
+}
+
+.diane {
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/mobile/diane_choose.png?raw=true');
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  @include media-breakpoint-up(md){
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/diane_horizontal.png?raw=true');
+    width: 75%;
+    height: 232px;
+  }
+}
+
+.felix {
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/mobile/felix_choose.png?raw=true');
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  @include media-breakpoint-up(md){
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/felix_horizontal.png?raw=true');
+    width: 75%;
+    height: 232px;
+    margin-left: auto;
+  }
+}
+
+.karina {
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/mobile/karina_choose.png?raw=true');
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  @include media-breakpoint-up(md){
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/karina_horizontal.png?raw=true');
+    width: 75%;
+    height: 232px;
+  }
+}
+
+.vito {
+  background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/mobile/vito_choose.png?raw=true');
+  background-position: center;
+  background-size: cover;
+  height: 196px;
+  @include media-breakpoint-up(md){
+    background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/vito_horizontal.png?raw=true');
+    width: 75%;
+    height: 232px;
+    margin-left: auto;
+    margin-bottom: 120px;
+  }
 }

@@ -586,7 +586,7 @@ $font-size-sm:                $font-size-base * .875 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
 $font-weight-lighter:         lighter !default;
-$font-weight-light:           300 !default;
+$font-weight-light:           400 !default;
 $font-weight-normal:          500 !default;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
@@ -1032,7 +1032,7 @@ $form-file-button-hover-bg:       shade-color($form-file-button-bg, 5%) !default
 // scss-docs-end form-file-variables
 
 // scss-docs-start form-floating-variables
-$form-floating-height:            add(3.5rem, $input-height-border) !default;
+$form-floating-height:            add(2.75rem, $input-height-border) !default;
 $form-floating-line-height:       1.25 !default;
 $form-floating-padding-x:         $input-padding-x !default;
 $form-floating-padding-y:         1rem !default;

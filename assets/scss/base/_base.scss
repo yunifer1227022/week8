@@ -4,6 +4,7 @@
 
 body{
     color: #FFF;
+    background: #000;
 }
 
 img {
@@ -20,14 +21,6 @@ ul {
 
 h2{
     font-size: 48px;
-}
-
-.font-noto-TC {
-    font-family: 'Noto Sans TC' !important;
-}
-
-.font-shrikhand {
-    font-family: 'Shrikhand'!important;
 }
 
 .form-control::placeholder {
@@ -57,4 +50,16 @@ h2{
 .spacing-16{
     letter-spacing: 16px;
     margin-right: -16px;
+}
+
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.circle-large{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
 }

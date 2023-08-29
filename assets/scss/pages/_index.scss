@@ -48,8 +48,8 @@
 }
 
 .robot {
-  img:hover{
-    box-shadow: 0 0 16px 8px #8F00FFCC ;
+  img:hover {
+    box-shadow: 0 0 16px 8px #8f00ffcc;
   }
   &-name {
     font-size: 32px;
@@ -81,8 +81,8 @@
       letter-spacing: 48px;
     }
   }
-  .alphabox-tech{
-    background: url('/assets/images/alphabox-tech.png') no-repeat;
+  .alphabox-tech {
+    background: url("/assets/images/alphabox-tech.png") no-repeat;
     height: 560px;
     width: 1296px;
     background-size: cover;
@@ -90,26 +90,88 @@
   }
 }
 
-.news{
-  background: radial-gradient(#28085C, #000000 70%);
-  height: 1080px;
-  &-arrow{
+.news {
+  background: radial-gradient(#28085c, #000000 70%);
+  &-arrow {
     height: 24px;
   }
 }
 
-.contact{
-  background: #1F0F39;
-  height: 622px;
-  &-circle{
+.comment {
+  background: radial-gradient(#000000, #28085c 70%);
+  &-background {
+    color: #ffffff0a;
+    font-size: 400px;
+    line-height: 1;
+    bottom: -150px;
+  }
+}
+
+.contact {
+  background: #1f0f39;
+  &-circle {
     width: 12px;
     height: 12px;
   }
-  &-pill{
+  &-pill {
     width: 124px;
     height: 12px;
   }
-  &-icon{
+  &-icon {
     font-size: 80px;
+  }
+  textarea {
+    height: 120px !important;
+    resize: none;
+  }
+}
+
+.robot-card-arrow {
+  width: 155px;
+  height: 24px;
+}
+
+%robot-vertical{
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: -1;
+  }
+  &:hover:before{
+    opacity: 0.5;
+  }
+}
+
+.robot-vertical-1 {
+  @extend %robot-vertical;
+  &::before {
+    background: url('/assets/images/diane_vertical.png') no-repeat center / cover;
+  }
+}
+
+.robot-vertical-2 {
+  @extend %robot-vertical;
+  &::before {
+    background: url('/assets/images/felix_vertical.png') no-repeat center / cover;
+  }
+}
+
+.robot-vertical-3 {
+  @extend %robot-vertical;
+  &::before {
+    background: url('/assets/images/karina_verticalgle.png') no-repeat center / cover;
+  }
+}
+
+.robot-vertical-4 {
+  @extend %robot-vertical;
+  &::before {
+    background: url('/assets/images/vito_vertical.png') no-repeat center / cover;
   }
 }

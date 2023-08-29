@@ -4,3 +4,21 @@ header {
     //     border-bottom: 1px solid #FFFFFF;
     //   }
 }
+
+.navbar-collapse {
+    position: absolute;
+    background:linear-gradient(180deg, #7000FF 0%, #11002D 100%);
+    z-index: 1000;
+    top: 100%;
+    width: 100vw;
+    display: block;
+    left: 0%;
+    border-top: 1px solid #ffffff ;
+    @include media-breakpoint-up(lg){
+        position: static;
+        background: initial;
+        display: flex;
+        border :0px;
+    }
+    
+}

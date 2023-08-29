@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body{
+    color: #FFF;
+}
+
 img {
 	max-width:100%;
 	height: auto;
@@ -14,6 +18,10 @@ ul {
     margin: 0;
 }
 
+h2{
+    font-size: 48px;
+}
+
 .font-noto-TC {
     font-family: 'Noto Sans TC' !important;
 }
@@ -24,4 +32,29 @@ ul {
 
 .form-control::placeholder {
     color: #1F0F39;
+}
+
+.spacing-80{
+    letter-spacing: 80px;
+    margin-right: -80px;
+}
+
+.spacing-48{
+    letter-spacing: 48px;
+    margin-right: -48px;
+}
+
+.spacing-32{
+    letter-spacing: 32px;
+    margin-right: -32px;
+}
+
+.spacing-20{
+    letter-spacing: 20px;
+    margin-right: -20px;
+}
+
+.spacing-16{
+    letter-spacing: 16px;
+    margin-right: -16px;
 }

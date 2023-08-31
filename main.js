@@ -21,7 +21,3 @@ const swiper = new Swiper('.swiper', {
   // 使 swiper 可以使用滑鼠滾輪捲動
   mousewheel: true,
 });
-
-if(slidesPerView<3){
-  swiper.disable();
-}

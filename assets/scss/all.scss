@@ -1,11 +1,15 @@
 // google font
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Shrikhand&display=swap');
 // BS5 & custom scss
-@import "../../node_modules/bootstrap/scss/functions";
+@import "bootstrap/scss/functions";
 @import './utils/variables';
-@import "../../node_modules/bootstrap";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
 @import '../scss/utils/uti';
 @import '../../node_modules/bootstrap/scss/utilities/api';
+@import "../../node_modules/bootstrap";
 
 @import './base/base.scss';
 @import './base/font.scss';

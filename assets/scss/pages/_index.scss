@@ -1,13 +1,9 @@
 .index-banner {
   background: url("/assets/images/home_background.png") no-repeat;
-  height: 880px;
   background-size: cover;
-
-  img {
-    @media (min-width: 768px) {
-      width: 196px;
-    }
-  }
+  height: 100%;
+  width: 100%;
+  z-index: -1;
 }
 
 .alphabox-circle {
@@ -34,13 +30,8 @@
 }
 
 .banner-slogan {
-  h2 {
-    @media (min-width: 768px) {
-      font-size: 32px;
-      line-height: 48px;
-    }
-  }
   p {
+    letter-spacing: 4.8px;
     @media (min-width: 768px) {
       letter-spacing: 16px;
     }
@@ -48,6 +39,7 @@
 }
 
 .robot {
+  margin-bottom: -104px;
   img:hover {
     box-shadow: 0 0 16px 8px #8f00ffcc;
   }
@@ -60,13 +52,17 @@
 .intro {
   z-index: -1;
   background: radial-gradient(#300871, #000000 70%);
-  height: 1080px;
-  &-half {
+  &-bg {
     background: url("/assets/images/carousel_background.png") no-repeat;
     height: 100%;
-    background-size: cover;
-    background-position: center;
+    width: 100%;
+    background-size:cover;
+    background-position: top;
     z-index: -1;
+    
+    @media (min-width: 992px) {
+      width: 50%;
+    }
   }
   &-top {
     background: linear-gradient(to right, $primary 0%, $secondary 100%);
@@ -83,8 +79,11 @@
   }
   .alphabox-tech {
     background: url("/assets/images/alphabox-tech.png") no-repeat;
-    height: 560px;
-    width: 1296px;
+    height: 351px;
+    @media (min-width: 576px) {
+      height: 560px;
+    }
+    width: 100%;
     background-size: cover;
     background-position: center;
   }
@@ -101,12 +100,19 @@
   background: radial-gradient(#000000, #28085c 70%);
   &-background {
     color: #ffffff0a;
-    font-size: 400px;
+    font-size: 128px;
     line-height: 1;
-    bottom: -150px;
+    bottom: -50px;
+    @media (min-width: 768px) {
+      font-size: 400px;
+      bottom: -150px;
+    }
   }
   .slide-card{
-    height: 416px;
+    height: 351px;
+    @media (min-width: 768px) {
+      height: 416px;
+    }
   }
 }
 
@@ -126,6 +132,9 @@
   textarea {
     height: 120px !important;
     resize: none;
+  }
+  label {
+    height: 35px;
   }
 }
 

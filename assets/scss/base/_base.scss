@@ -27,19 +27,30 @@ h2{
     color: #1F0F39;
 }
 
-.spacing-80{
-    letter-spacing: 80px;
-    margin-right: -80px;
+.spacing-slogan{
+    letter-spacing: 22px;
+    @media (min-width: 1200px) {
+        letter-spacing: 60px;
+        margin-right: -60px;
+    }
 }
 
-.spacing-48{
-    letter-spacing: 48px;
-    margin-right: -48px;
+.spacing-title{
+    letter-spacing: 40px;
+    margin-right: -40px;
+    @media (min-width: 768px) {
+        letter-spacing: 48px;
+        margin-right: -48px;
+    }
 }
 
 .spacing-32{
-    letter-spacing: 32px;
-    margin-right: -32px;
+    letter-spacing: 24px;
+    margin-right: -24px;
+    @media (min-width: 768px) {
+        letter-spacing: 32px;
+        margin-right: -32px;
+    }
 }
 
 .spacing-20{
@@ -50,6 +61,19 @@ h2{
 .spacing-16{
     letter-spacing: 16px;
     margin-right: -16px;
+}
+
+.spacing-h2{
+    font-size: 24px;
+    letter-spacing: 24px;
+    @media (min-width: 768px) {
+        font-size: 36px;
+        letter-spacing: 36px;
+    }
+    @media (min-width: 992px) {
+        font-size: 48px;
+        letter-spacing: 48px;
+    }
 }
 
 .circle{

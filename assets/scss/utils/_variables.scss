@@ -609,6 +609,7 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start font-sizes  custom
 $font-sizes: (
+  14: $font-size-base * 0.88,
   16: $font-size-base,
   20: $font-size-base * 1.25,
   24: $font-size-base * 1.5,

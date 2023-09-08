@@ -1,0 +1,34 @@
+.border-bottom {
+  border-bottom-style: dotted!important;
+}
+.faq-title {
+  letter-spacing: 1em;
+}
+.textline-unique {
+  border-bottom: 1px solid #1F0F39;
+}
+.question-card {
+  padding: 0 12px;
+}
+.accordion-button {
+   &:focus {
+    box-shadow: none;   
+  }
+  &::after {
+    content: none;
+  }
+  .addIcon {
+    display: block;
+  }
+  .removeIcon {
+    display: none;
+  }
+  &:not(.collapsed) {
+    .addIcon {
+      display: none;
+    }
+    .removeIcon {
+      display: block;
+    }
+  }
+}

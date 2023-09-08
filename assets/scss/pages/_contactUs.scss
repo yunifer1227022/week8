@@ -3,7 +3,7 @@
   background-position: center;
   background-size: cover;
   height: 196px;
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(lg){
     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/diane_horizontal.png?raw=true');
     width: 75%;
     height: 232px;
@@ -15,7 +15,7 @@
   background-position: center;
   background-size: cover;
   height: 196px;
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(lg){
     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/felix_horizontal.png?raw=true');
     width: 75%;
     height: 232px;
@@ -28,7 +28,7 @@
   background-position: center;
   background-size: cover;
   height: 196px;
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(lg){
     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/karina_horizontal.png?raw=true');
     width: 75%;
     height: 232px;
@@ -40,7 +40,7 @@
   background-position: center;
   background-size: cover;
   height: 196px;
-  @include media-breakpoint-up(md){
+  @include media-breakpoint-up(lg){
     background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week8-ai/horizontal/vito_horizontal.png?raw=true');
     width: 75%;
     height: 232px;

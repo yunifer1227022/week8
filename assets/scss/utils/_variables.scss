@@ -398,13 +398,16 @@ $spacers: (
   24: $spacer * 1.5,
   28: $spacer * 1.75,
   32: $spacer * 2,
+  36: $spacer * 2.25,
   40: $spacer * 2.5,
+  44: $spacer * 2.75,
   48: $spacer * 3,
   52: $spacer * 3.25,
   56: $spacer * 3.5,
   60: $spacer * 3.75,
   64: $spacer * 4,
   68: $spacer * 4.25,
+  72: $spacer * 4.5,
   76: $spacer * 4.75,
   80: $spacer * 5,
   96: $spacer * 6,
@@ -591,7 +594,7 @@ $font-weight-light:           400 !default;
 $font-weight-normal:          500 !default;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
-$font-weight-bolder:          bolder !default;
+$font-weight-bolder:          900 !default;
 
 $font-weight-base:            $font-weight-normal !default;
 
